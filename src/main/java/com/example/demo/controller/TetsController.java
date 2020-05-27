@@ -9,6 +9,7 @@ public class TetsController {
     @RequestMapping("/")
     public String test(){
 
+        String s = "jjj;";
         return "hello world!!!!";
     }
 }
